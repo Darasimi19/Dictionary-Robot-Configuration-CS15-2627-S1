@@ -19,4 +19,4 @@ robot.pop("mode")
 print(len(robot))
 
 for key, value in robot.items():
-    print(f"key: {key}, value: {value}")
+    print(key, "-", value)
